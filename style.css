@@ -10,13 +10,13 @@
 h1
 {
   text-align: center;
-  color: gray;
+  color: white;
   line-height: 100px;
   font-family: 'Fira Sans', sans-serif;
   }
-  h2
+  #Kontakt
   {
-    color: grey;
+    color: white;
     font-family: 'Fira Sans',sans-serif;
     font-size: 18px;
     margin-left: 50px;
@@ -28,22 +28,30 @@ h1
 #rectangle
 {
   height: : 90%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.2);
   font-family: 'Fira Sans', sans-serif;
   color: white;
   margin-left: auto;
   margin-right: auto;
-  padding-left: : 15px;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+html body div#rectangle.row div.col-sm-6.col-md-4 img.img-fluid{
+  margin: 3vh auto;
 }
 body
 {
   background-image: url("ineatło.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 #mapa
 {
   width: 200px;
   height: 200px;
   margin-bottom: 50px;
+  margin: auto;
 }
 #navbarSupportedContent
 {
@@ -54,4 +62,15 @@ h3
 {
   color: white;
   font-family: 'Fire Sans', sans-serif;
+}
+#background
+{
+  height: : 90%;
+  background-color: rgba(0,0,0,0.8);
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 1vh;
 }
