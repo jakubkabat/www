@@ -1,0 +1,57 @@
+#logo
+{
+  background-image: url("background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:100%;
+  height:500px;
+  background-position: center;
+}
+h1
+{
+  text-align: center;
+  color: gray;
+  line-height: 100px;
+  font-family: 'Fira Sans', sans-serif;
+  }
+  h2
+  {
+    color: grey;
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+  }
+#rectangle
+{
+  height: : 90%;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: : 15px;
+}
+body
+{
+  background-image: url("ineatło.png");
+}
+#mapa
+{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+#navbarSupportedContent
+{
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+}
+h3
+{
+  color: white;
+  font-family: 'Fire Sans', sans-serif;
+}
