@@ -1,5 +1,4 @@
-#logo
-{
+#logo{
   background-image: url("background.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -7,28 +6,26 @@
   height:500px;
   background-position: center;
 }
-h1
-{
+h1{
   text-align: center;
   color: white;
   line-height: 100px;
   font-family: 'Fira Sans', sans-serif;
+  text-shadow: 2px 2px 2px #000;
   }
-  #Kontakt
-  {
+  #Kontakt{
     color: white;
     font-family: 'Fira Sans',sans-serif;
     font-size: 18px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     justify-content: flex-end;
   }
-#rectangle
-{
+#rectangle{
   height: : 90%;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.35);
   font-family: 'Fira Sans', sans-serif;
   color: white;
   margin-left: auto;
@@ -39,38 +36,64 @@ h1
 html body div#rectangle.row div.col-sm-6.col-md-4 img.img-fluid{
   margin: 3vh auto;
 }
-body
-{
+body{
   background-image: url("ineatło.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
-#mapa
-{
-  width: 200px;
-  height: 200px;
-  margin-bottom: 50px;
-  margin: auto;
-}
-#navbarSupportedContent
-{
+#navbarSupportedContent{
   font-family: 'Fira Sans', sans-serif;
   color: white;
 }
-h3
-{
+h3{
+  color: white;
   color: white;
   font-family: 'Fire Sans', sans-serif;
+  text-shadow: 2px 2px 2px #000;
 }
-#background
-{
+#background{
   height: : 90%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.5);
   font-family: 'Fira Sans', sans-serif;
   color: white;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-bottom: 1vh;
+}
+
+.nav_text:hover{
+  background: rgba(0,51,204,0.4);
+  border-radius: 15px;
+}
+#tekstkontakt{
+  height:90%;
+  margin-bottom:2vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.6);
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+}
+#Lokalizacja{
+  text-align: center;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2vh;
+}
+#map{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+#map iframe{
+  left:0;
+  top: 0;
+  height:100%;
+  width:100%;
+  position: absolute;
 }
